@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.*;
 import java.io.File;
+import java.net.URISyntaxException;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -20,9 +21,17 @@ public class ListenerLoadImage implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		File f = new File("logo.jpg");
+		String folder = "";
+		try {
+			folder = new File(ListenerLoadFile.class.getProtectionDomain().getCodeSource().getLocation()
+				    .toURI()).getParent();
+		} catch (URISyntaxException e) {
+			e.printStackTrace();
+		}
+		String fileName = folder + File.separator + "logo.jpg";
+		File f = new File(fileName);
     	if(f.exists() && !f.isDirectory()) { 
-    		ImageIcon img = new ImageIcon("logo.jpg");
+    		ImageIcon img = new ImageIcon(fileName);
         	laba_info.setIcon(img);
     	} else {
     		laba_info.setFont(new Font("Arial", Font.BOLD, 20));

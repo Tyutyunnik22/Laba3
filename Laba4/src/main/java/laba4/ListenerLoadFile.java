@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
@@ -17,7 +18,14 @@ public class ListenerLoadFile implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		String fileName = "file.txt";
+		String folder = "";
+		try {
+			folder = new File(ListenerLoadFile.class.getProtectionDomain().getCodeSource().getLocation()
+				    .toURI()).getParent();
+		} catch (URISyntaxException e) {
+			e.printStackTrace();
+		}
+		String fileName = folder + File.separator + "file.txt";
 		ArrayList<String> list = new ArrayList<String>();
 		UIManager.put("OptionPane.minimumSize",new java.awt.Dimension(400,50));
 		UIManager.put("OptionPane.messageFont", new Font("Arial", Font.BOLD, 18));
