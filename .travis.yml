@@ -1,0 +1,12 @@
+language: java
+before_script:
+- echo "Starting build"
+script:
+- mvn clean package
+after_script:
+- echo "Script finished"
+after_success:
+- echo "Build ready"
+- ls -l $TRAVIS_BUILD_DIR/target
+after_failure:
+- echo "Build failure"
