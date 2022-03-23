@@ -29,7 +29,7 @@ public class MainForm {
 		button1.addActionListener(new ButtonEventInfo());
 		ArrayList<String> listNames = new ArrayList<String>();
 		listNames.add("Салимгареев И. 23.03.2022");
-		listNames.add("Скитяева Н.");
+		listNames.add("Скитяева Н. 23.03.2022");
 		listNames.add("Тютюнник В. 23.03.2022");
 		listNames.add("Мамлеева Д.");
 		InfoForm.authors = listNames;
