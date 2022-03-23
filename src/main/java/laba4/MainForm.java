@@ -31,7 +31,7 @@ public class MainForm {
 		listNames.add("Салимгареев И. 23.03.2022");
 		listNames.add("Скитяева Н. 23.03.2022");
 		listNames.add("Тютюнник В. 23.03.2022");
-		listNames.add("Мамлеева Д.");
+		listNames.add("Мамлеева Д. 23.03.2022");
 		InfoForm.authors = listNames;
 		
 		JButton button_exit = new JButton("Выход"); //Добавляем кнопку
