@@ -28,7 +28,7 @@ public class MainForm {
 		button1.setBounds(125,350,175,40);
 		button1.addActionListener(new ButtonEventInfo());
 		ArrayList<String> listNames = new ArrayList<String>();
-		listNames.add("Салимгареев И.");
+		listNames.add("Салимгареев И. 23.03.2022");
 		listNames.add("Скитяева Н.");
 		listNames.add("Тютюнник В.");
 		listNames.add("Мамлеева Д.");
