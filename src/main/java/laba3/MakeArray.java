@@ -1,4 +1,4 @@
-package laba4;
+package laba3;
 
 public class MakeArray {
 	public static int[] getArray() {

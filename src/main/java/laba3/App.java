@@ -1,4 +1,4 @@
-package laba4;
+package laba3;
 
 //Класс запуска приложений
 public class App {

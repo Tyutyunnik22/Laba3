@@ -1,4 +1,4 @@
-package laba4;
+package laba3;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;

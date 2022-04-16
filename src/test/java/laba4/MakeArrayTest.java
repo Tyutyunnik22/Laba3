@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import laba3.MakeArray;
+
 public class MakeArrayTest {
 	static int[] make;
 	

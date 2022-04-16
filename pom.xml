@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Project22</groupId>
-  <artifactId>Laba4</artifactId>
+  <groupId>usatu</groupId>
+  <artifactId>Laba3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Laba4</name>
-  <description>Лабораторная работа №4 ООМиП</description>
+  <name>Laba3</name>
+  <description>Лабораторная работа №3</description>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,7 +40,7 @@
 			      <finalName>MyJar</finalName>    
 				  <archive>
 					  <manifest>
-					  <mainClass>laba4.App</mainClass>
+					  <mainClass>laba3.App</mainClass>
 					  </manifest>
 				  </archive>
 		      </configuration>

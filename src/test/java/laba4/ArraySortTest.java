@@ -6,6 +6,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import laba3.ArraySort;
+
 public class ArraySortTest {
 	static ArraySort as;
 	

@@ -1,4 +1,4 @@
-package laba4;
+package laba3;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;

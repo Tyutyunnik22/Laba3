@@ -1,4 +1,4 @@
-package laba4;
+package laba3;
 
 public class Random {
 	public int getRandomValue()

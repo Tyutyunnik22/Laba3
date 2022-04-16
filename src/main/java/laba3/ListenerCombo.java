@@ -1,4 +1,4 @@
-package laba4;
+package laba3;
 
 import java.awt.event.*;
 

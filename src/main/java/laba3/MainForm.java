@@ -1,4 +1,4 @@
-package laba4; //пакет Java классов
+package laba3; //пакет Java классов
 
 import java.awt.Color;
 import java.awt.Font;

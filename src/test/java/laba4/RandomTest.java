@@ -4,6 +4,8 @@ import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
+import laba3.Random;
+
 public class RandomTest {
 	@Test
 	public void test() {
